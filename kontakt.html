@@ -5,34 +5,61 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kontakt | Auto Detailing Praha</title>
 <script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Poppins', sans-serif; }
+</style>
 </head>
 
 <body class="bg-black text-white">
 
-<nav class="p-6 flex justify-between bg-gray-900">
-  <div class="font-bold text-yellow-400">Auto Detailing Praha</div>
-  <div class="space-x-6">
-    <a href="index.html">Domů</a>
-    <a href="sluzby.html">Služby</a>
-    <a href="galerie.html">Galerie</a>
-    <a href="kontakt.html">Kontakt</a>
+<!-- NAVBAR -->
+<nav class="fixed w-full bg-black bg-opacity-90 backdrop-blur-md z-50">
+  <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+    <div class="text-yellow-400 font-bold text-lg">
+      Auto Detailing Praha
+    </div>
+    <div class="space-x-6 hidden md:block">
+      <a href="index.html" class="hover:text-yellow-400">Domů</a>
+      <a href="sluzby.html" class="hover:text-yellow-400">Služby</a>
+      <a href="galerie.html" class="hover:text-yellow-400">Galerie</a>
+      <a href="kontakt.html" class="text-yellow-400">Kontakt</a>
+    </div>
   </div>
 </nav>
 
-<section class="py-20 px-6 text-center">
-  <h1 class="text-4xl font-bold mb-8">Kontaktujte nás</h1>
+<!-- CONTENT -->
+<section class="py-32 px-6 text-center">
+  <h1 class="text-4xl font-bold mb-10">Kontaktujte nás</h1>
 
-  <p class="text-gray-400 mb-4">Praha a okolí</p>
-  <p class="text-2xl text-yellow-400 font-bold mb-8">+420 123 456 789</p>
+  <div class="max-w-2xl mx-auto bg-gray-900 p-10 rounded-xl shadow-lg">
 
-  <a href="mailto:info@autodetailingpraha.cz"
-     class="bg-yellow-500 text-black px-6 py-3 rounded-full">
-     Napsat e-mail
-  </a>
+    <p class="text-gray-400 mb-6">Praha a okolí</p>
+
+    <p class="text-2xl text-yellow-400 font-bold mb-6">
+      +420 123 456 789
+    </p>
+
+    <div class="flex flex-col gap-4">
+
+      <a href="tel:+420123456789"
+         class="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-3 px-6 rounded-full transition duration-300">
+         Zavolat nyní
+      </a>
+
+      <a href="mailto:info@autodetailingpraha.cz"
+         class="border border-yellow-400 text-yellow-400 py-3 px-6 rounded-full hover:bg-yellow-400 hover:text-black transition duration-300">
+         Napsat e-mail
+      </a>
+
+    </div>
+
+  </div>
+
 </section>
 
-<footer class="text-center py-6 text-gray-500 bg-gray-900">
-© 2026 Auto Detailing Praha
+<footer class="py-6 text-center text-gray-500 text-sm bg-black">
+  © 2026 Auto Detailing Praha
 </footer>
 
 </body>
