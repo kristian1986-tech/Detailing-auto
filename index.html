@@ -14,7 +14,7 @@
 <style>
 body { font-family: 'Poppins', sans-serif; }
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
   url('https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2') center/cover no-repeat;
 }
 </style>
@@ -25,18 +25,15 @@ body { font-family: 'Poppins', sans-serif; }
 <!-- NAVBAR -->
 <nav class="fixed w-full bg-black bg-opacity-90 backdrop-blur-md z-50">
   <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
-
     <a href="index.html">
       <img src="logo.png" alt="Auto Detailing" class="h-12">
     </a>
-
     <div class="space-x-6">
       <a href="index.html" class="hover:text-yellow-400">Domů</a>
       <a href="sluzby.html" class="hover:text-yellow-400">Služby</a>
       <a href="galerie.html" class="hover:text-yellow-400">Galerie</a>
       <a href="kontakt.html" class="hover:text-yellow-400">Kontakt</a>
     </div>
-
   </div>
 </nav>
 
@@ -44,14 +41,14 @@ body { font-family: 'Poppins', sans-serif; }
 <section class="hero h-screen flex items-center justify-center text-center px-4 pt-20">
   <div>
     <h1 class="text-4xl md:text-6xl font-bold mb-6">
-      Profesionální Auto Detailing
+      Vrátíme vašemu vozu dokonalý vzhled
     </h1>
     <p class="text-lg md:text-xl mb-8 text-gray-300">
-      Leštění laku • Keramická ochrana • Hloubkové čištění interiéru
+      Luxusní auto detailing • Keramická ochrana • Hloubkové čištění
     </p>
-    <a href="kontakt.html" 
+    <a href="kontakt.html"
        class="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-full text-lg transition duration-300">
-       Objednat nyní
+       Rezervovat termín
     </a>
   </div>
 </section>
@@ -59,67 +56,95 @@ body { font-family: 'Poppins', sans-serif; }
 <!-- SERVICES -->
 <section class="py-20 px-6 bg-gray-900 text-center">
   <h2 class="text-3xl font-bold mb-12">Naše služby</h2>
-  <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
 
+  <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
     <div>
       <h3 class="text-xl font-semibold mb-4 text-yellow-400">Leštění laku</h3>
       <p class="text-gray-400">Odstranění škrábanců a obnovení hlubokého lesku karoserie.</p>
     </div>
-
     <div>
       <h3 class="text-xl font-semibold mb-4 text-yellow-400">Keramická ochrana</h3>
-      <p class="text-gray-400">Dlouhodobá ochrana laku proti nečistotám, UV záření a vodě.</p>
+      <p class="text-gray-400">Dlouhodobá ochrana proti UV záření a nečistotám.</p>
     </div>
-
     <div>
       <h3 class="text-xl font-semibold mb-4 text-yellow-400">Čištění interiéru</h3>
-      <p class="text-gray-400">Detailní hloubkové čištění sedaček, plastů a koberců.</p>
+      <p class="text-gray-400">Detailní hloubkové čištění a obnova interiéru.</p>
     </div>
-
   </div>
-
-  <div class="mt-10">
-    <a href="sluzby.html"
-       class="border border-yellow-400 text-yellow-400 px-6 py-3 rounded-full hover:bg-yellow-400 hover:text-black transition duration-300">
-       Zobrazit všechny služby
-    </a>
-  </div>
-
 </section>
 
-<!-- GALLERY PREVIEW -->
+<!-- WHY US -->
 <section class="py-20 px-6 text-center">
-  <h2 class="text-3xl font-bold mb-12">Ukázka práce</h2>
-  <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-    <img src="https://images.unsplash.com/photo-1583267747113-7e1c4b68d2b0" class="rounded-xl">
-    <img src="https://images.unsplash.com/photo-1607604760190-ec8c4b5f9b6f" class="rounded-xl">
-    <img src="https://images.unsplash.com/photo-1619767886558-efdc259cde1a" class="rounded-xl">
-  </div>
-
-  <div class="mt-10">
-    <a href="galerie.html"
-       class="border border-yellow-400 text-yellow-400 px-6 py-3 rounded-full hover:bg-yellow-400 hover:text-black transition duration-300">
-       Zobrazit celou galerii
-    </a>
+  <h2 class="text-3xl font-bold mb-12">Proč si vybrat nás</h2>
+  <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto text-gray-300">
+    <div>
+      <h3 class="text-yellow-400 font-semibold mb-2">✔ Profesionální přístup</h3>
+      <p>Individuální péče o každý vůz.</p>
+    </div>
+    <div>
+      <h3 class="text-yellow-400 font-semibold mb-2">✔ Prémiové produkty</h3>
+      <p>Používáme pouze ověřené značky.</p>
+    </div>
+    <div>
+      <h3 class="text-yellow-400 font-semibold mb-2">✔ Spokojení zákazníci</h3>
+      <p>Desítky pozitivních recenzí a vracejících se klientů.</p>
+    </div>
   </div>
 </section>
 
-<!-- CONTACT -->
-<section class="py-20 bg-gray-900 text-center px-6">
-  <h2 class="text-3xl font-bold mb-8">Kontakt</h2>
-  <p class="mb-4 text-gray-400">Působíme po celé České republice</p>
-  <p class="text-2xl font-bold text-yellow-400 mb-6">+420 123 456 789</p>
-  <a href="mailto:info@autodetailing.cz" 
-     class="border border-yellow-400 text-yellow-400 py-3 px-6 rounded-full hover:bg-yellow-400 hover:text-black transition duration-300">
-     Napsat e-mail
+<!-- REVIEWS -->
+<section class="py-20 bg-gray-900 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-12">Recenze zákazníků</h2>
+  <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+    <div class="bg-black p-6 rounded-xl shadow-lg">
+      <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
+      <p class="text-gray-300">„Perfektní práce, auto vypadá jako nové.“</p>
+    </div>
+    <div class="bg-black p-6 rounded-xl shadow-lg">
+      <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
+      <p class="text-gray-300">„Keramická ochrana opravdu vydržela dlouho.“</p>
+    </div>
+    <div class="bg-black p-6 rounded-xl shadow-lg">
+      <p class="text-yellow-400 text-xl mb-2">★★★★★</p>
+      <p class="text-gray-300">„Rychlé jednání a profesionální přístup.“</p>
+    </div>
+  </div>
+</section>
+
+<!-- CENIK -->
+<section class="py-20 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-12">Orientační ceník</h2>
+  <div class="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+    <div class="bg-gray-900 p-8 rounded-xl shadow-lg">
+      <h3 class="text-xl text-yellow-400 font-semibold mb-4">Leštění laku</h3>
+      <p class="text-3xl font-bold mb-4">od 2 990 Kč</p>
+    </div>
+    <div class="bg-gray-900 p-8 rounded-xl shadow-lg">
+      <h3 class="text-xl text-yellow-400 font-semibold mb-4">Keramická ochrana</h3>
+      <p class="text-3xl font-bold mb-4">od 5 990 Kč</p>
+    </div>
+    <div class="bg-gray-900 p-8 rounded-xl shadow-lg">
+      <h3 class="text-xl text-yellow-400 font-semibold mb-4">Kompletní detailing</h3>
+      <p class="text-3xl font-bold mb-4">od 3 990 Kč</p>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="py-20 bg-yellow-500 text-black text-center px-6">
+  <h2 class="text-4xl font-bold mb-6">
+    Připraveni dopřát vašemu vozu prémiovou péči?
+  </h2>
+  <a href="kontakt.html"
+     class="bg-black text-white px-8 py-4 rounded-full font-bold hover:bg-gray-800 transition duration-300">
+     Získat nezávaznou nabídku
   </a>
 </section>
 
 <footer class="py-6 text-center text-gray-500 text-sm bg-black">
-  © 2026 Auto Detailing
+© 2026 Auto Detailing
 </footer>
 
-<!-- WHATSAPP BUTTON -->
 <a href="https://wa.me/420123456789"
    target="_blank"
    class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white text-2xl p-4 rounded-full shadow-lg transition duration-300 z-50">
