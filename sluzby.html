@@ -5,51 +5,72 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Služby | Auto Detailing Praha</title>
 <script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Poppins', sans-serif; }
+</style>
 </head>
 
 <body class="bg-black text-white">
 
-<nav class="p-6 flex justify-between bg-gray-900">
-  <div class="font-bold text-yellow-400">Auto Detailing Praha</div>
-  <div class="space-x-6">
-    <a href="index.html">Domů</a>
-    <a href="sluzby.html">Služby</a>
-    <a href="galerie.html">Galerie</a>
-    <a href="kontakt.html">Kontakt</a>
+<!-- NAVBAR -->
+<nav class="fixed w-full bg-black bg-opacity-90 backdrop-blur-md z-50">
+  <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+    <div class="text-yellow-400 font-bold text-lg">
+      Auto Detailing Praha
+    </div>
+    <div class="space-x-6 hidden md:block">
+      <a href="index.html" class="hover:text-yellow-400">Domů</a>
+      <a href="sluzby.html" class="text-yellow-400">Služby</a>
+      <a href="galerie.html" class="hover:text-yellow-400">Galerie</a>
+      <a href="kontakt.html" class="hover:text-yellow-400">Kontakt</a>
+    </div>
   </div>
 </nav>
 
-<section class="py-20 px-6 text-center">
-  <h1 class="text-4xl font-bold mb-12">Naše služby</h1>
+<!-- CONTENT -->
+<section class="py-32 px-6 text-center">
+  <h1 class="text-4xl font-bold mb-16">Naše služby</h1>
 
-  <div class="max-w-3xl mx-auto space-y-10">
+  <div class="max-w-4xl mx-auto grid md:grid-cols-3 gap-12">
 
-    <div>
-      <h2 class="text-2xl text-yellow-400 font-semibold">Leštění laku</h2>
-      <p class="text-gray-400 mt-2">
+    <div class="bg-gray-900 p-8 rounded-xl shadow-lg">
+      <h2 class="text-2xl text-yellow-400 font-semibold mb-4">Leštění laku</h2>
+      <p class="text-gray-400">
         Profesionální odstranění škrábanců a obnova hlubokého lesku karoserie.
+        Používáme moderní technologie a kvalitní produkty.
       </p>
     </div>
 
-    <div>
-      <h2 class="text-2xl text-yellow-400 font-semibold">Keramická ochrana</h2>
-      <p class="text-gray-400 mt-2">
-        Dlouhodobá ochrana laku proti UV záření, špíně a vodě.
+    <div class="bg-gray-900 p-8 rounded-xl shadow-lg">
+      <h2 class="text-2xl text-yellow-400 font-semibold mb-4">Keramická ochrana</h2>
+      <p class="text-gray-400">
+        Dlouhodobá ochrana proti UV záření, špíně a vodě.
+        Zajišťuje vysoký lesk a snadnější údržbu vozu.
       </p>
     </div>
 
-    <div>
-      <h2 class="text-2xl text-yellow-400 font-semibold">Čištění interiéru</h2>
-      <p class="text-gray-400 mt-2">
-        Hloubkové čištění sedaček, plastů, koberců a detailní péče o interiér.
+    <div class="bg-gray-900 p-8 rounded-xl shadow-lg">
+      <h2 class="text-2xl text-yellow-400 font-semibold mb-4">Čištění interiéru</h2>
+      <p class="text-gray-400">
+        Hloubkové čištění sedaček, plastů a koberců.
+        Váš interiér bude vypadat jako nový.
       </p>
     </div>
 
   </div>
+
+  <div class="mt-16">
+    <a href="kontakt.html"
+       class="bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-full transition duration-300">
+       Objednat službu
+    </a>
+  </div>
+
 </section>
 
-<footer class="text-center py-6 text-gray-500 bg-gray-900">
-© 2026 Auto Detailing Praha
+<footer class="py-6 text-center text-gray-500 text-sm bg-black">
+  © 2026 Auto Detailing Praha
 </footer>
 
 </body>
